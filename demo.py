@@ -14,7 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-import tensorflow as tf
+import tensorflow-gpu as tf
 import cPickle as pickle
 from skimage import io,transform
 from p2m.api import GCN
